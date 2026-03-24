@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>App Viajes</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <h1>Viajes por hoy</h1>
+      <p>Práctica 2 - Sub 2</p>
+    </header>
+
+    <section class="perfil">
+      <h2>Alumno</h2>
+      <p>Denisse Reyes</p>
+    </section>
+
+    <nav class="menu">
+      <button onclick="mostrarSeccion('inicio')">Inicio</button>
+      <button onclick="mostrarSeccion('menu-viajes')">Menú</button>
+      <button onclick="mostrarSeccion('contacto')">Contacto</button>
+    </nav>
+
+    <main>
+      <section id="inicio" class="seccion activa">
+        <h2>Bienvenid@s</h2>
+        <p>Esta app muestra información básica de viajes.</p>
+        <div class="card">
+          <h3>Horario</h3>
+          <p>Lunes a Sabado</p>
+          <p>8:00 am a 8:00 am</p>
+        </div>
+      </section>
+
+      <section id="menu-viajes" class="seccion">
+        <h2>Menú de viajes por hoy</h2>
+        <div class="card">
+          <h3>Cancún</h3>
+          <p>$25</p>
+        </div>
+        <div class="card">
+          <h3>Sonora</h3>
+          <p>$40</p>
+        </div>
+        <div class="card">
+          <h3>Nayarit</h3>
+          <p>$15</p>
+        </div>
+      </section>
+
+      <section id="contacto" class="seccion">
+        <h2>Contacto</h2>
+        <div class="card">
+          <p>Encargado: María López</p>
+          <p>Ubicación: Edificio A</p>
+          <p>Teléfono: 722 000 0000</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>@</span>
+      <span></span>
+      <span></span>
+    </footer>
+  </div>
+  <script src="js/app.js"></script>
+</body>
+</html>
